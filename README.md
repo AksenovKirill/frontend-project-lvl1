@@ -13,12 +13,12 @@
 
 ## Get started
 
-Clone the repository -> use `make install` command.
-Thereafter use `npm link`.
+Clone the repository -> use `make install` command. <br>
+There after use `npm link`.
 Success, games ready to play!
 
 ### Games
 
-General rule: ** Answer "yes" if the number is even, otherwise answer "no".**
+**General rule**: Answer "yes" if the number is even, otherwise answer "no".
 
--> use `brain-even` command to start.
+If you want to start -> use `brain-even` command.
