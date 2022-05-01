@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-import {questionPlayer} from '../src/cli.js';
-questionPlayer();
+import {askUserName} from '../src/cli.js';
+askUserName();

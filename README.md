@@ -9,4 +9,16 @@
 
 # Brain-Games
 
-** Simple console Games with basic arithmetics ** 
+** Simple console Games with basic arithmetics **
+
+## Get started
+
+Clone the repository -> use `make install` command.
+Thereafter use 'npm link'.
+Success, games ready to play!
+
+### Games
+
+Answer "yes" if the number is even, otherwise answer "no".
+
+Use 'brain-even' command to start.
