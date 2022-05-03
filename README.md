@@ -11,7 +11,7 @@
 
 ** Simple console Games with basic arithmetics **
 
-**Rules games**: 
+## Rules games: 
 - Time for games is not limited;
 - You need to get 3 correct answers to win;
 - If you answer incorrectly - you lose.
@@ -23,9 +23,9 @@
 - There after use `npm link`;<br>
 - Success, games ready to play!
 
-## Games
+# Games
 
-### Brain even game
+## Brain even game
 
 **Description**: Simple console game where you need answer "yes" if the number is even or "no" if this not even.
 
@@ -33,7 +33,7 @@ If you want to start game -> use `brain-even` command.
 
 [![asciicast](https://asciinema.org/a/5DoEzzG6ZV5rcg67xHi32qVFT.svg)](https://asciinema.org/a/5DoEzzG6ZV5rcg67xHi32qVFT)
 
-### Brain calculate game
+## Brain calculate game
 
 **Description**: Simple console game where u need to find the expression value?.
 
