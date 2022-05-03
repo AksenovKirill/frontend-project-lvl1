@@ -13,15 +13,16 @@
 
 ## Get started
 
-Clone the repository -> use `make install` command. <br>
-There after use `npm link`.
+Clone the repository <br>
+-> use `make install` command. <br>
+There after use `npm link`.<br>
 Success, games ready to play!
 
 ### Games
 
 ## Brain even game
 
-**Rule**: Answer "yes" if the number is even, otherwise answer "no".
+**Description**: Simple console game where you need answer "yes" if the number is even or "no" if this not even.
 
 If you want to start game -> use `brain-even` command.
 
@@ -29,8 +30,8 @@ If you want to start game -> use `brain-even` command.
 
 ## Brain calculate game
 
-**Rule**: What is the result of the expression?.
+**Description**: Simple console game where you need answer what is the result of the math expression?.
 
 If you want to start game -> use `brain-calc` command.
 
-[![asciicast](https://asciinema.org/a/CziO3XvQWQsUyFNlTPn4EjyW4.svg)](https://asciinema.org/a/CziO3XvQWQsUyFNlTPn4EjyW4)
+[![asciicast](https://asciinema.org/a/VR7HE1Sd6aXORjKA17gQ5p6CD.svg)](https://asciinema.org/a/VR7HE1Sd6aXORjKA17gQ5p6CD)
