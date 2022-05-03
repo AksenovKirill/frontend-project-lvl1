@@ -33,4 +33,4 @@ If you want to start game -> use `brain-even` command.
 
 If you want to start game -> use `brain-calc` command.
 
-[![asciicast](https://asciinema.org/a/ahswmw4Y9A8PBfVr1Zhtwiw0N.svg)](https://asciinema.org/a/ahswmw4Y9A8PBfVr1Zhtwiw0N)
+[![asciicast](https://asciinema.org/a/CziO3XvQWQsUyFNlTPn4EjyW4.svg)](https://asciinema.org/a/CziO3XvQWQsUyFNlTPn4EjyW4)
