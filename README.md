@@ -18,9 +18,9 @@
 
 ## Get started
 
-- Clone the repository <br>
---> use `make install` command. <br>
-- There after use `npm link`.<br>
+- Clone the repository; <br> 
+- Use `make install` command; <br>
+- There after use `npm link`;<br>
 - Success, games ready to play!
 
 ### Games
