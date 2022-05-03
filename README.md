@@ -23,6 +23,4 @@ Success, games ready to play!
 
 If you want to start -> use `brain-even` command.
 
-[![asciicast](https://asciinema.org/a/svZJMvzn8EAMlW5NgejawxDgm.svg)](https://asciinema.org/a/svZJMvzn8EAMlW5NgejawxDgm)
-
-https://asciinema.org/a/svZJMvzn8EAMlW5NgejawxDgm
+[![asciicast](https://asciinema.org/a/5DoEzzG6ZV5rcg67xHi32qVFT.svg)](https://asciinema.org/a/5DoEzzG6ZV5rcg67xHi32qVFT)
