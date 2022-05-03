@@ -35,8 +35,16 @@ If you want to start game -> use `brain-even` command.
 
 ## Brain calculate game
 
-**Description**: Simple console game where u need to find the expression value?
+**Description**: Simple console game where you need to find the expression value.
 
 If you want to start game -> use `brain-calc` command.
 
 [![asciicast](https://asciinema.org/a/VR7HE1Sd6aXORjKA17gQ5p6CD.svg)](https://asciinema.org/a/VR7HE1Sd6aXORjKA17gQ5p6CD)
+
+## Brain GCD game
+
+**Description**: Simple console game where you need to find the greatest common divisor.
+
+If you want to start game -> use `brain-gcd` command.
+
+[![asciicast](https://asciinema.org/a/IQnaSo3nJKqzqzR2CIE3wrmf0.svg)](https://asciinema.org/a/IQnaSo3nJKqzqzR2CIE3wrmf0)
