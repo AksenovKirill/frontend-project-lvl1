@@ -22,3 +22,4 @@ Success, games ready to play!
 **General rule**: Answer "yes" if the number is even, otherwise answer "no".
 
 If you want to start -> use `brain-even` command.
+[![asciicast](https://asciinema.org/a/svZJMvzn8EAMlW5NgejawxDgm.svg)](https://asciinema.org/a/svZJMvzn8EAMlW5NgejawxDgm)

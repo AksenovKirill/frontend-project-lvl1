@@ -1,13 +1,11 @@
 import readlineSync from 'readline-sync';
-import {getRandomIntenger} from '../utils.js';
+import {getRandomIntenger, isEvenNumber} from '../utils.js';
 import {MIN_NUMBER, MAX_NUMBER, RULE_BRAIN_EVEN, ROUNDS_IN_BRAIN_EVEN} from '../const.js';
 
-const isEvenNumber = (number) => number % 2 === 0;
-
 const startGame = () => {
-  const question = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
-  const correctAnswer = isEvenNumber(question) ? 'yes' : 'no';
-  return [question, correctAnswer];
+  const randomNumber = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
+  const correctAnswer = isEvenNumber(randomNumber) ? 'yes' : 'no';
+  return [randomNumber, correctAnswer];
 };
 
 export const playBrainEven = () => {
@@ -17,8 +15,8 @@ export const playBrainEven = () => {
   console.log(RULE_BRAIN_EVEN);
 
   for (let i = 1; i <= ROUNDS_IN_BRAIN_EVEN; i++) {
-    const [question, correctAnswer] = startGame();
-    console.log(`Question: ${question}`);
+    const [randomNumber, correctAnswer] = startGame();
+    console.log(`Question: ${randomNumber}`);
     const userAnswer = readlineSync.question('Your answer: ');
     if (userAnswer !== correctAnswer) {
       console.log(
