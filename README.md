@@ -35,7 +35,7 @@ If you want to start game -> use `brain-even` command.
 
 ## Brain calculate game
 
-**Description**: Simple console game where u need to find the expression value?.
+**Description**: Simple console game where u need to find the expression value?
 
 If you want to start game -> use `brain-calc` command.
 
