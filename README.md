@@ -19,8 +19,18 @@ Success, games ready to play!
 
 ### Games
 
-**General rule**: Answer "yes" if the number is even, otherwise answer "no".
+## Brain even game
 
-If you want to start -> use `brain-even` command.
+**Rule**: Answer "yes" if the number is even, otherwise answer "no".
+
+If you want to start game -> use `brain-even` command.
 
 [![asciicast](https://asciinema.org/a/5DoEzzG6ZV5rcg67xHi32qVFT.svg)](https://asciinema.org/a/5DoEzzG6ZV5rcg67xHi32qVFT)
+
+## Brain calculate game
+
+**Rule**: What is the result of the expression?.
+
+If you want to start game -> use `brain-calc` command.
+
+[![asciicast](https://asciinema.org/a/ahswmw4Y9A8PBfVr1Zhtwiw0N.svg)](https://asciinema.org/a/ahswmw4Y9A8PBfVr1Zhtwiw0N)
