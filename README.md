@@ -11,12 +11,17 @@
 
 ** Simple console Games with basic arithmetics **
 
+**Rules games**: 
+- Time for games is not limited;
+- You need to get 3 correct answers to win;
+- If you answer incorrectly - you lose;
+
 ## Get started
 
-Clone the repository <br>
--> use `make install` command. <br>
-There after use `npm link`.<br>
-Success, games ready to play!
+- Clone the repository <br>
+--> use `make install` command. <br>
+- There after use `npm link`.<br>
+- Success, games ready to play!
 
 ### Games
 
@@ -30,7 +35,7 @@ If you want to start game -> use `brain-even` command.
 
 ## Brain calculate game
 
-**Description**: Simple console game where you need answer what is the result of the math expression?.
+**Description**: Simple console game where u need to find the expression value?.
 
 If you want to start game -> use `brain-calc` command.
 
