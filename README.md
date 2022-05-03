@@ -14,7 +14,7 @@
 **Rules games**: 
 - Time for games is not limited;
 - You need to get 3 correct answers to win;
-- If you answer incorrectly - you lose;
+- If you answer incorrectly - you lose.
 
 ## Get started
 
