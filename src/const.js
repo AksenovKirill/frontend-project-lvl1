@@ -8,6 +8,7 @@ export const RULE_BRAIN_EVEN = 'Answer "yes" if the number is even, otherwise an
 export const RULE_BRAIN_CALC = 'What is the result of the expression?';
 export const RULE_BRAIN_GCD = 'Find the greatest common divisor of given numbers.';
 export const RULE_BRAIN_PROGRESSION = 'What number is missing in the progression?';
+export const RULE_BRAIN_PRIME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 export const INTENGER_OPERATIONS = [
     {
