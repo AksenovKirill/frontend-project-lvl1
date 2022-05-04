@@ -12,6 +12,6 @@ const getDataForGame = () => {
   return [question, correctAnswer];
 };
 
-export const playBrainCalculateGame = () => {
+export const playBrainProgression = () => {
   playGame(getDataForGame, RULE_BRAIN_CALC);
 };
