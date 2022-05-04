@@ -25,7 +25,7 @@
 
 # Games
 
-## Brain even game
+## Brain-even game
 
 **Description**: Simple console game where you need answer "yes" if the number is even or "no" if this not even.
 
@@ -33,7 +33,7 @@ If you want to start game -> use `brain-even` command.
 
 [![asciicast](https://asciinema.org/a/5DoEzzG6ZV5rcg67xHi32qVFT.svg)](https://asciinema.org/a/5DoEzzG6ZV5rcg67xHi32qVFT)
 
-## Brain calculate game
+## Brain-calculate game
 
 **Description**: Simple console game where you need to find the expression value.
 
@@ -41,11 +41,19 @@ If you want to start game -> use `brain-calc` command.
 
 [![asciicast](https://asciinema.org/a/VR7HE1Sd6aXORjKA17gQ5p6CD.svg)](https://asciinema.org/a/VR7HE1Sd6aXORjKA17gQ5p6CD)
 
-## Brain GCD game
+## Brain-GCD game
 
 **Description**: Simple console game where you need to find the greatest common divisor(GCD).
-<a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">GCD</a>
+[GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor)
 
 If you want to start game -> use `brain-gcd` command.
 
 [![asciicast](https://asciinema.org/a/IQnaSo3nJKqzqzR2CIE3wrmf0.svg)](https://asciinema.org/a/IQnaSo3nJKqzqzR2CIE3wrmf0)
+
+## Brain-progression game
+
+**Description**: Simple console game where you need to find the number is missing in the progression.
+
+If you want to start game -> use `brain-progression` command.
+
+[![asciicast](https://asciinema.org/a/f0xFthgD4Mzef9dPtLn8Ktj8L.svg)](https://asciinema.org/a/f0xFthgD4Mzef9dPtLn8Ktj8L)
