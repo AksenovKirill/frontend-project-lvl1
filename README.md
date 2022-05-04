@@ -43,7 +43,8 @@ If you want to start game -> use `brain-calc` command.
 
 ## Brain GCD game
 
-**Description**: Simple console game where you need to find the greatest common divisor.
+**Description**: Simple console game where you need to find the greatest common divisor(GCD).
+<a href="https://en.wikipedia.org/wiki/Greatest_common_divisor">GCD</a>
 
 If you want to start game -> use `brain-gcd` command.
 
