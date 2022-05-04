@@ -57,3 +57,11 @@ If you want to start game -> use `brain-gcd` command.
 If you want to start game -> use `brain-progression` command.
 
 [![asciicast](https://asciinema.org/a/f0xFthgD4Mzef9dPtLn8Ktj8L.svg)](https://asciinema.org/a/f0xFthgD4Mzef9dPtLn8Ktj8L)
+
+## Brain-prime game
+
+**Description**: Simple console game where you need answer "yes" if the number is prime or "no" if this not prime.
+
+If you want to start game -> use `brain-prime` command.
+
+[![asciicast](https://asciinema.org/a/5OsgOLpfKqAQdCcjWYdjbaBk2.svg)](https://asciinema.org/a/5OsgOLpfKqAQdCcjWYdjbaBk2)
