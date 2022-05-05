@@ -5,7 +5,6 @@ import {playGame} from '../index.js';
 const getDataForGame = () => {
   const number = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
   const correctAnswer = isPrimeNumber(number) ? 'yes' : 'no';
-  console.log(correctAnswer)
   const question = `Question: ${number}`;
   return [question, correctAnswer];
 };
