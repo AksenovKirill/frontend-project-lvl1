@@ -12,7 +12,7 @@ const getDataForGame = () => {
   const answer = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
   const position = getRandomIntenger(MIN_POSITION, MAX_POSITION);
   const progressionLength = getRandomIntenger(MIN_LENGTH, MAX_LENGTH);
-  const progression = Array.from({length: progressionLength}, (param, index) => (index + 1) * answer);
+  const progression = Array.from({length: progressionLength}, (_, index) => (index + 1) * answer);
   
   progression.splice(position, 1, '..');
   const question = `Question: ${progression.join(' ')}`;
