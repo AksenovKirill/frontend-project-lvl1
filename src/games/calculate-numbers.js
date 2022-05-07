@@ -1,6 +1,8 @@
 import {getRandomElement, getRandomIntenger} from '../utils.js';
-import {MIN_NUMBER, MAX_NUMBER, INTENGER_OPERATIONS, RULE_BRAIN_CALC} from '../const.js';
+import {MIN_NUMBER, MAX_NUMBER, INTENGER_OPERATIONS} from '../const.js';
 import {playGame} from '../index.js';
+
+const RULE_GAME = 'What is the result of the expression?';
 
 const getDataForGame = () => {
   const firstNumber = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
@@ -13,5 +15,5 @@ const getDataForGame = () => {
 };
 
 export const playBrainCalculateGame = () => {
-  playGame(getDataForGame, RULE_BRAIN_CALC);
+  playGame(getDataForGame, RULE_GAME);
 };

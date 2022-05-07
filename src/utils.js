@@ -4,9 +4,9 @@ export const getRandomIntenger = (min, max) =>
 export const getRandomElement = (array) =>
   array[Math.floor(Math.random() * array.length)];
 
-export const isEvenNumber = (number) => number % 2 === 0;
+export const isEven = (number) => number % 2 === 0;
 
-export const isPrimeNumber = (number) => {
+export const isPrime = (number) => {
   for (let i = 2; i < number; i++) {
     if (number % i === 0) {
       return false;
@@ -15,9 +15,9 @@ export const isPrimeNumber = (number) => {
   return number > 1;
 };
 
-export const getGcd = (first, second) => {
+export const GCD = (first, second) => {
   if (!second) {
     return first;
   }
-  return getGcd(second, first % second);
+  return GCD(second, first % second);
 };
