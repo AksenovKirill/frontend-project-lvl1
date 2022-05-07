@@ -5,9 +5,10 @@ import { playGame} from '../index.js';
 const RULE_GAME = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const getDataForGame = () => {
-  const randomNumber = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
-  const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
-  return [randomNumber, correctAnswer];
+  const number = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
+  const answer = isEven(number) ? 'yes' : 'no';
+  const question = `Question: ${number}`;
+  return [question, answer];
 };
 
 export const playBrainEvenGame = () => {
