@@ -1,5 +1,5 @@
 import readlineSync from 'readline-sync';
-import {GAME_ROUNDS} from './const.js';
+import { GAME_ROUNDS } from './const.js';
 
 export const playGame = (game, rule) => {
   console.log('Welcome to the Brain Games!');

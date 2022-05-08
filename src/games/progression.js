@@ -1,6 +1,6 @@
-import {getRandomIntenger} from '../utils.js';
-import {MIN_NUMBER, MAX_NUMBER} from '../const.js';
-import {playGame} from '../index.js';
+import { getRandomIntenger } from '../utils.js';
+import { MIN_NUMBER, MAX_NUMBER } from '../const.js';
+import { playGame } from '../index.js';
 
 const MIN_POSITION = 0;
 const MAX_POSITION = 9;
