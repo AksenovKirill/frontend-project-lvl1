@@ -26,8 +26,8 @@ const getDataForGame = () => {
   return [question, answer];
 };
 
-export const playBrainProgression = () => {
+export const playProgression = () => {
   playGame(getDataForGame, RULE_GAME);
 };
 
-export default playBrainProgression;
+export default playProgression;

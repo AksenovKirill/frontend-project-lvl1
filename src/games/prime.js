@@ -11,8 +11,8 @@ const getDataForGame = () => {
   return [question, answer];
 };
 
-const playBrainPrime = () => {
+const playPrime = () => {
   playGame(getDataForGame, RULE_GAME);
 };
 
-export default playBrainPrime;
+export default playPrime;
