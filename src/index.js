@@ -11,7 +11,6 @@ export const playGame = (game, rule) => {
     const [question, correctAnswer] = game();
 
     console.log(question);
-    console.log(typeOf(question))
     const userAnswer = readlineSync.question('Your answer: ');
     if (String(userAnswer).toUpperCase() !== String(correctAnswer).toUpperCase()) {
       console.log(
