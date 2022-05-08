@@ -1,6 +1,6 @@
 import { getRandomIntenger } from '../utils.js';
 import { MIN_NUMBER, MAX_NUMBER } from '../const.js';
-import { playGame } from '../index.js';
+import playGame from '../index.js';
 
 const MIN_POSITION = 0;
 const MAX_POSITION = 9;
@@ -16,13 +16,12 @@ const getDataForGame = () => {
   const progression = [number];
   let result = number;
 
-  for (let i = 1; i <= progressionLength; i++) {
+  for (let i = 1; i <= progressionLength; i + 1) {
     result += step;
     progression.push(result);
   }
 
   const answer = progression.splice(getRandomIntenger(0, position), 1, '..');
-  console.log('OTVET', answer)
   const question = `Question: ${progression.join(' ')}`;
   return [question, answer];
 };
@@ -30,3 +29,5 @@ const getDataForGame = () => {
 export const playBrainProgression = () => {
   playGame(getDataForGame, RULE_GAME);
 };
+
+export default playBrainProgression;

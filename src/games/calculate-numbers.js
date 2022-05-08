@@ -1,6 +1,6 @@
 import { getRandomElement, getRandomIntenger } from '../utils.js';
 import { MIN_NUMBER, MAX_NUMBER, INTENGER_OPERATIONS } from '../const.js';
-import { playGame } from '../index.js';
+import playGame from '../index.js';
 
 const RULE_GAME = 'What is the result of the expression?';
 
@@ -14,6 +14,8 @@ const getDataForGame = () => {
   return [question, correctAnswer];
 };
 
-export const playBrainCalculateGame = () => {
+const playBrainCalculateGame = () => {
   playGame(getDataForGame, RULE_GAME);
 };
+
+export default playBrainCalculateGame;

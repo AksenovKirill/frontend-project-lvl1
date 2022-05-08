@@ -1,13 +1,13 @@
 import readlineSync from 'readline-sync';
 import { GAME_ROUNDS } from './const.js';
 
-export const playGame = (game, rule) => {
+const playGame = (game, rule) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(rule);
-  
-  for (let i = 1; i <= GAME_ROUNDS; i++) {
+
+  for (let i = 1; i <= GAME_ROUNDS; i + 1) {
     const [question, correctAnswer] = game();
 
     console.log(question);
@@ -25,3 +25,5 @@ export const playGame = (game, rule) => {
     }
   }
 };
+
+export default playGame;
