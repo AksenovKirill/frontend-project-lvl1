@@ -15,5 +15,6 @@ rules:
     - error
     - ignorePackages
     - js: always
-    - 'linebreak-style': 0,
+    'linebreak-style': ['error', 'unix'],
+
   no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
