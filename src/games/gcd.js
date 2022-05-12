@@ -7,6 +7,7 @@ const getDataForGame = () => {
   const secondNumber = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
   const answer = GCD(firstNumber, secondNumber);
   const question = `Question: ${firstNumber} ${secondNumber}`;
+  console.log(answer);
   return [question, answer];
 };
 

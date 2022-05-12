@@ -10,4 +10,8 @@ const getDataForGame = () => {
   return [question, answer];
 };
 
-export default playGame(getDataForGame, GAME_RULES.even);
+const playEven = () => {
+  playGame(getDataForGame, GAME_RULES.even);
+};
+
+export default playEven;

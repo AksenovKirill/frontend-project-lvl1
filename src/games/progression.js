@@ -12,13 +12,16 @@ const getDataForGame = () => {
   const step = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
   const position = getRandomIntenger(MIN_POSITION, MAX_POSITION);
   const progressionLength = getRandomIntenger(MIN_LENGTH, MAX_LENGTH);
-  const progression = [number];
-  let result = number;
+  let reducer = number;
 
-  for (let i = 1; i <= progressionLength; i + 1) {
-    result += step;
-    progression.push(result);
-  }
+  const progression = Array.from({ length: progressionLength }).map(
+    (_, index) => {
+      if (index !== 0) {
+        reducer += step;
+      }
+      return reducer;
+    },
+  );
 
   const answer = progression.splice(getRandomIntenger(0, position), 1, '..');
   const question = `Question: ${progression.join(' ')}`;
