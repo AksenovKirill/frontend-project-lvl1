@@ -1,7 +1,8 @@
 import readlineSync from 'readline-sync';
-import { GAME_ROUNDS } from './const.js';
 
-export default (game, rule) => {
+const GAME_ROUNDS = 3;
+
+const playGame = (game, rule) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
@@ -25,3 +26,5 @@ export default (game, rule) => {
     }
   }
 };
+
+export default playGame;
