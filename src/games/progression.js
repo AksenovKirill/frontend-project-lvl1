@@ -1,12 +1,11 @@
 import { getRandomIntenger } from '../utils.js';
-import { MIN_NUMBER, MAX_NUMBER } from '../const.js';
-import playGame from '../index.js';
+import { MIN_NUMBER, MAX_NUMBER, GAME_RULES } from '../const.js';
+import playGame from '../play-game.js';
 
-const MIN_POSITION = 0;
-const MAX_POSITION = 9;
+const MIN_POSITION = 1;
+const MAX_POSITION = 10;
 const MIN_LENGTH = 5;
 const MAX_LENGTH = 10;
-const RULE_GAME = 'What number is missing in the progression?';
 
 const getDataForGame = () => {
   const number = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
@@ -26,8 +25,8 @@ const getDataForGame = () => {
   return [question, answer];
 };
 
-export const playProgression = () => {
-  playGame(getDataForGame, RULE_GAME);
+const playProgression = () => {
+  playGame(getDataForGame, GAME_RULES.progression);
 };
 
 export default playProgression;

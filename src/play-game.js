@@ -20,9 +20,7 @@ const playGame = (game, rule) => {
       console.log(`Let's try again, ${userName}!`);
       break;
     }
-
     console.log('Correct!');
-
     if (i === GAME_ROUNDS) {
       console.log(`Congratulations, ${userName}!`);
     }
