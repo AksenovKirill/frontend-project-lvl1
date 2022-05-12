@@ -1,8 +1,8 @@
-import {getRandomIntenger, isPrime} from '../utils.js';
-import {MIN_NUMBER, MAX_NUMBER} from '../const.js';
-import {playGame} from '../index.js';
+import { getRandomIntenger, isPrime } from '../utils.js';
+import { MIN_NUMBER, MAX_NUMBER } from '../const.js';
+import playGame from '../play-game.js';
 
-const RULE_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+const RULE_GAME = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const getDataForGame = () => {
   const number = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
@@ -11,6 +11,8 @@ const getDataForGame = () => {
   return [question, answer];
 };
 
-export const playBrainPrime = () => {
+const playPrime = () => {
   playGame(getDataForGame, RULE_GAME);
 };
+
+export default playPrime;
