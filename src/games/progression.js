@@ -23,7 +23,8 @@ const getDataForGame = () => {
     },
   );
 
-  const answer = progression.splice(getRandomIntenger(0, position), 1, '..');
+  const answer = progression.splice(getRandomIntenger(0, position - 1), 1, '..');
+  console.log(answer);
   const question = `Question: ${progression.join(' ')}`;
   return [question, answer];
 };
