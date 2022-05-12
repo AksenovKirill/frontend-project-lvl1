@@ -5,7 +5,7 @@ export const getRandomElement = (array) => array[Math.floor(Math.random() * arra
 export const isEven = (number) => number % 2 === 0;
 
 export const isPrime = (number) => {
-  for (let i = 2; i < number; i + 1) {
+  for (let i = 2; i < number; i += 1) {
     if (number % i === 0) {
       return false;
     }

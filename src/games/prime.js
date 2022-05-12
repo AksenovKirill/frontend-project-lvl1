@@ -6,7 +6,7 @@ const getDataForGame = () => {
   const number = getRandomIntenger(MIN_NUMBER, MAX_NUMBER);
   const answer = isPrime(number) ? 'yes' : 'no';
   const question = `Question: ${number}`;
-  console.log(answer);
+
   return [question, answer];
 };
 
